@@ -35,6 +35,11 @@ bootstrap-theme.min.css">
     color:white;
   }
 
+  .text-shadow {
+    text-shadow: 1px 1px 1px #000;
+    color:#fff;
+  }
+
   p {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -56,8 +61,8 @@ bootstrap-theme.min.css">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-offset-3 center">
-        <h1 class="center">Weather Forecast</h1>
-        <p class="lead center">Enter your country below to get a forecast for the weather</h1>
+        <h1 class="center text-shadow">Weather Forecast</h1>
+        <p class="lead center text-shadow">Enter your country below to get a forecast for the weather</h1>
 
         <form>
           <div class="form-group">
